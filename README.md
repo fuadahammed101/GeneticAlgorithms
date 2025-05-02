@@ -53,3 +53,36 @@ Q . . . . . . .
 ## License
 
 This project is open source and free to use.
+
+GenAI1:
+# Genetic Algorithm for Product Matching Problem
+
+This project contains a simple Python program that uses a Genetic Algorithm (GA) to find a list of numbers whose product equals a given target number. The program evolves a population of candidate solutions over multiple generations to find the best match.
+
+## What is this about?
+
+Given a target integer `T` and a fixed list length `k`, the program tries to find a list of `k` numbers (each between 0 and 9) such that the product of these numbers equals `T`. For example:
+
+- Input: `T = 12`, `k = 3`  
+  Output: `2 3 2` (because 2 * 3 * 2 = 12)
+
+- Input: `T = 18`, `k = 3`  
+  Output: `3 3 2` (because 3 * 3 * 2 = 18)
+
+
+
+```bash
+python GenAl.py
+```
+
+3. Enter the target integer `T` and the list length `k` when prompted.
+4. The program will print the solution if found.
+
+## Why use this?
+
+This program is a simple example of how genetic algorithms can be applied to solve problems with large and complex search space. It is written in a beginner-friendly style to help understand the basic concepts.
+
+## License
+
+This project is open source and free to use.
+
